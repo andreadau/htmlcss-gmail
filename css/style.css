@@ -1,6 +1,6 @@
 body {
   padding: 10px;
-  width: 70%;
+  width: 90%;
   margin: auto;
   color: white;
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
@@ -16,8 +16,32 @@ overflow: auto;
 nav p {
   font-size: 25px;
 }
+
 nav p span {
   background: orange;
     border-radius: 50%;
     padding: 10px;
+}
+
+main div p {
+  display: inline-block;
+  margin: auto;
+}
+
+.container-email-body-unread {
+  background-color: lightgray;
+  color: black;
+  border: 1px solid black;
+  height: 25px;
+}
+
+.container-email-body-read {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height: 25px;
+}
+
+.text-inside {
+  color: gray;
 }
