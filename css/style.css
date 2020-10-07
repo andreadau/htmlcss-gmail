@@ -45,3 +45,11 @@ main div p {
 .text-inside {
   color: gray;
 }
+
+footer h2 {
+  text-align: center;
+}
+
+footer span {
+  font-size: 15px;
+}
