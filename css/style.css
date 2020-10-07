@@ -1,6 +1,11 @@
 body {
+  padding: 10px;
+  width: 70%;
+  margin: auto;
+  color: white;
   background-image: url(https://ssl.gstatic.com/ui/v1/icons/mail/themes/desk/bg2_1920x1200.jpg);
 }
+
 header h1 {
 display: inline-block;
 color: white;
@@ -8,7 +13,11 @@ margin-bottom: 10px;
 overflow: auto;
 }
 
-.container-header {
-  width: 70%;
-  margin: auto;
+nav p {
+  font-size: 25px;
+}
+nav p span {
+  background: orange;
+    border-radius: 50%;
+    padding: 10px;
 }
